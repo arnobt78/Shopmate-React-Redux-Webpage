@@ -1,6 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Shopmate-React-Redux-Webpage
+
+Shopmate is a demo React Redux E-Commerce Web Application (Global Level State Application), using the React concepts/features of "Redux" and "Redux-Toolkit". React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Redux, and Redux-Toolkit functionalities have been used in this project and deployed on Netlify.
+
+Note: "Redux" and "Redux-Toolkit" have been employed in this React project; "useContext" and "useReducers" have not been used here.
+
+This webpage can be seen by using this URL: 
+
+## To Install Dependences
+
+Before launching this web application, be sure to install all required dependencies, which are listed in the package.json file.
+
+To install all dependences, run this command from your project folder: `npm install`
+
+## To Install NodeJS
+
+Make sure you have NodeJS installed in your machine first, The installation instructions are here: https://nodejs.org/en/
+
+## To Install React-Router 
+
+Open up your terminal and bootstrap a new React app by: `npx create-react-app`
+
+Then go to that project folder, and write this command via terminal from your project folder: `npm install react-router-dom`
+
+(To check for more details about React-Router, please visit: https://reactrouter.com/en/main )
+
+## To Install Redux and Redux-Toolkit
+
+To install Redux and Redux-toolkit, run this command from your project folder:
+
+`npm install react-redux@8`
+
+`npm install @reduxjs/toolkit`
+
+### More about React-Redux and Redux-Toolkit
+
+Documentation: https://redux-toolkit.js.org/
+
+- Redux is a pattern and library for managing and updating application state, using events called "actions".
+  
+- Slice: A "slice" is a collection of Redux reducer logic and actions for a single feature in your app, typically defined together in a single file. The name comes from splitting up the root Redux state object into multiple "slices" of state.
+  
+- Action: An action is a plain JavaScript object that has a `type` field. You can think of an action as an event that describes something that happened in the application. An action object can have other fields with additional information about what happened. By convention, we put that information in a field called `payload`.
+  
+- `useSelector` hook lets our component extract whatever pieces of data it needs from the Redux store state.
+  
+- `useDispatch` hook returns a reference to the `dispatch` function from the Redux store. You may use it to dispatch actions as needed.
+  
+- The `<Provider>` component makes the Redux `store` available to any nested components that need to access the Redux store.
+
+Basic Steps To Follow:
+
+- Create ‘**slice’** for data with name, initialState and reducers
+  
+- Get actions from slice.actions and export them
+
+- Export reducers
+  
+- Import reducer inside store.js and register it
+  
+- Export store
+  
+- Cover the entire application with **Provider** with access to **{store}**
+
+Steps to perform operations:
+
+- Import the actions (add/remove)
+  
+- Use **useDispatch** so we can call actions
+(To change anything in store, we need to dispatch the action)
+
+- Use **useSelector** to get state information (cart/counter)
+
+For more info about Redux Devtool, visit: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 
 ## Available Scripts
 
