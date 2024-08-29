@@ -1,7 +1,7 @@
 
 ## Shopmate-React-Redux-Webpage
 
-Shopmate is a demo React Redux E-Commerce Web Application (Global Level State Application), using the React concepts/features of "Redux" and "Redux-Toolkit". React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Redux, and Redux-Toolkit functionalities have been used in this project and deployed on Netlify.
+Shopmate is a demo React Redux E-Commerce Web Application (Global Level State Application), using "Redux" and "Redux-Toolkit" features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Redux, and Redux-Toolkit functionalities have been used in this project and deployed on Netlify.
 
 Note: "Redux" and "Redux-Toolkit" have been employed in this React project; "useContext" and "useReducers" have not been used here.
 
