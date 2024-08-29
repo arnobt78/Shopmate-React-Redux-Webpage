@@ -1,11 +1,11 @@
 
 ## Shopmate-React-Redux-Webpage
 
-Shopmate is a demo React Redux E-Commerce Web Application (Global Level State Application), using "Redux" and "Redux-Toolkit" features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Redux, and Redux-Toolkit functionalities have been used in this project and deployed on Netlify.
+Shopmate is a demo React Redux E-Commerce Web Application (Global Level State Application), using **"Redux"** and **"Redux-Toolkit"** features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Redux, and Redux-Toolkit functionalities have been used in this project and deployed on Netlify.
 
-Note: "Redux" and "Redux-Toolkit" have been employed in this React project; "useContext" and "useReducers" have not been used here.
+**Note:** "Redux" and "Redux-Toolkit" have been employed in this React project; "useContext" and "useReducers" have not been used here.
 
-This webpage can be seen by using this URL: https://shopmate-redux-arnob.netlify.app
+**This webpage can be seen by using this URL:** https://shopmate-redux-arnob.netlify.app
 
 ## To Install Dependences
 
@@ -35,7 +35,9 @@ To install Redux and Redux-toolkit, run this command from your project folder:
 
 ### More about React-Redux and Redux-Toolkit
 
-Documentation: https://redux-toolkit.js.org/
+**Documentation:** https://redux-toolkit.js.org/
+
+Vocab,
 
 - Redux is a pattern and library for managing and updating application state, using events called "actions".
   
@@ -68,11 +70,12 @@ Steps to perform operations:
 - Import the actions (add/remove)
   
 - Use **useDispatch** so we can call actions
+
 (To change anything in store, we need to dispatch the action)
 
 - Use **useSelector** to get state information (cart/counter)
 
-For more info about Redux Devtool, visit: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+(For more details about Redux Devtool, visit: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en )
 
 ## Available Scripts
 
