@@ -5,7 +5,7 @@ Shopmate is a demo React Redux E-Commerce Web Application (Global Level State Ap
 
 Note: "Redux" and "Redux-Toolkit" have been employed in this React project; "useContext" and "useReducers" have not been used here.
 
-This webpage can be seen by using this URL: 
+This webpage can be seen by using this URL: https://shopmate-redux-arnob.netlify.app
 
 ## To Install Dependences
 
